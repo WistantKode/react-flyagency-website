@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
 
             <div className="copyRightDiv flex">
-                <p>Design Inspired of Courtesy || Developed by <a href="https://wistantkode.vercel.app">Wistant Kode</a> </p>
+                <p>Design Courtesy | Developed by <a target='_blank' href="https://wistantkode.vercel.app">Wistant Kode</a> </p>
             </div>
         </div>
     )
