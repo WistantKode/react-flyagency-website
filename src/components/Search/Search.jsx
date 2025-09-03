@@ -23,7 +23,6 @@ const Search = () => {
                     <div className="singleBtn">
                         <span>First Class</span>
                     </div>
-
                 </div>
 
                 <div className="searchInputs flex">
@@ -74,11 +73,8 @@ const Search = () => {
                     <button className="btn btnBlock">
                         Search Flight
                     </button>
-
                 </div>
-
             </div>
-
         </div>
     )
 }

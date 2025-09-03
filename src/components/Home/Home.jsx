@@ -2,7 +2,7 @@ import React from "react";
 
 // import assets
 import video from '../../assets/video.mp4';
-import aeroplane from '../../assets/air-plane.jpg';
+// import aeroplane from '../../assets/air-plane.jpg';
 
 const Home = () => {
     return (
@@ -18,7 +18,7 @@ const Home = () => {
                     <video src={video} autoPlay muted loop className="video"></video>
                 </div>
 
-                <img src={aeroplane} alt="" className="plane"/>
+                {/*<img src={aeroplane} alt="" className="plane"/>*/}
             </div>
         </div>
     )

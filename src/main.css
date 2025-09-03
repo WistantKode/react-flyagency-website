@@ -9,7 +9,7 @@
 
 :root {
     --primaryColor: hsl(225, 50%, 48%);
-    --secondaryColor: hsl(180, 17%, 95%);
+    --secondaryColor: hsl(201, 32%, 88%);
     --colorOne: hsl(15, 74%, 70%);
     --colorTwo: hsl(28, 100%, 82%);
     --hoverColor: hsl(225, 56%, 59%);
@@ -415,7 +415,6 @@ h2 {
 
 /* Info section styling*/
 .info {
-    background-color: var(--secondaryColor);
     .infoContainer {
         .titleDiv {
             text-align: center;
@@ -430,12 +429,12 @@ h2 {
         }
 
         .singleCard {
-            background-color: var(--whiteColor);
+            background-color: var(--secondaryColor);
             padding: 3rem 2rem;
             border-radius: 10rem;
             gap: 1rem;
             text-align: center;
-            margin: auto;
+            margin: 2rem;
             height: 320px;
             width: 90%;
             max-width: 250px;
@@ -699,6 +698,7 @@ h2 {
                 display: block;
                 font-weight: bold;
                 transition: var(--transition);
+                padding: .5rem 0;
 
                 &:hover {
                     transform: translateX(7px);
@@ -717,6 +717,32 @@ h2 {
         }
     }
 }
+
+/* MEDIA SCREEN*/
+
+@media screen and (min-width: 400px) {
+    .home {
+        padding-top: 12rem;
+    }
+
+    .search {
+        .sectionContainer {
+            .searchInputs {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    .travelers {
+        .sectionContainer {
+            .travelersContainer {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+}
+
 
 
 
