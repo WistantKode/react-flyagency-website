@@ -50,6 +50,17 @@ const Footer = () => {
                     <li><a href={travelers}>Travelers</a></li>
                     <li><a href={subscribe}>Subscribe</a></li>
                 </div>
+
+                <div className="footerLinks">
+                    <span className="linkTitle">Quick Guide</span>
+                    <li><a href={FAQ}>FAQ</a></li>
+                    <li><a href={search}>How to</a></li>
+                    <li><a href={support}>Features</a></li>
+                    <li><a href={info}>Route Map</a></li>
+                    <li><a href={lounge}>Our Communities</a></li>
+                    <li><a href={travelers}>Travelers</a></li>
+                    <li><a href={subscribe}>Subscribe</a></li>
+                </div>
             </div>
 
             <div className="copyRightDiv flex">
