@@ -29,6 +29,16 @@ const Support = () => {
                             </div>
 
                             <div className="singleInfo">
+                                <span className="number">01</span>
+                                <h4>Travel Requirements for Dubai</h4>
+                                <p>
+                                    Find help Lorem ipsum dolor sit amet. Lorem ipsum.
+                                    the journey Lorem ipsum dolor.
+                                </p>
+                            </div>
+
+
+                            <div className="singleInfo">
                                 <span className="number colorOne">02</span>
                                 <h4>Chauffeur services at your arrival</h4>
                                 <p>
