@@ -1021,5 +1021,84 @@ h2 {
 }
 
 
+@media screen and (min-width: 992px) {
+    .home {
+        .mainText {
+            font-size: 20px;
+            width: 70%;
+        }
+
+        .homeImages {
+            .videoDiv {
+                width: 70%;
+            }
+        }
+    }
+
+    .search {
+        .sectionContainer {
+            .searchInputs {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 1.5rem;
+            }
+        }
+    }
+
+    .info {
+        .infoContainer {
+            .cardsDiv {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    }
+
+    .travelers {
+        .sectionContainer {
+            .travelersContainer {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    }
+
+    .footer {
+        .sectionContainer {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .home {
+        flex-direction: row;
+        text-align: left;
+        justify-content: space-between;
+        padding-top: 8rem;
+
+        .mainText {
+            font-size: 22px;
+            width: 50%;
+        }
+
+        .homeImages {
+            width: 50%;
+        }
+    }
+
+    .lounge {
+        .sectionContainer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+        }
+    }
+
+    .subscribe {
+        .sectionContainer {
+            max-width: 60%;
+        }
+    }
+}
+
+
 
 
