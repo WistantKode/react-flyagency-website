@@ -904,7 +904,43 @@ h2 {
     }
 }
 
+@media screen and (min-width: 760px) {
+    .navBar {
+        align-items: center;
+        .navBarOne {
+            .none {
+                display: flex;
+                gap: 1.5rem;
 
+                li {
+                    font-size: 12px;
+                    gap: .5rem;
+                    color: var(--textColor);
+
+                    &:hover {
+                        color: var(--primaryColor);
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .navBarTwo {
+            justify-content: space-between;
+            align-items: center;
+
+            .logoDiv {
+                .logo {
+                    max-width: 20%;
+                }
+            }
+
+            .menu {}
+
+        }
+
+    }
+}
 
 
 
