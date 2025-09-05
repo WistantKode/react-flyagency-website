@@ -1,7 +1,7 @@
 import React from "react";
 
 // import images //
-import gridImage from '../../assets/bg.png'
+import gridImage from '../../assets/exp1.svg'
 
 const Support = () => {
         return (

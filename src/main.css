@@ -937,10 +937,11 @@ h2 {
 
             .menu {
                 flex-direction: row;
-                gap: .5rem;
+                justify-content: space-between;
+                gap: 1rem;
 
                 .listItem {
-                    padding: 0 .5rem;
+                    padding: 0 2rem;
                     font-size: 14px;
                     cursor: pointer;
                     font-weight: 700;
@@ -953,11 +954,72 @@ h2 {
                 }
             }
 
-
+            .btnOne, .toggleIcon {
+                display: none;
+            }
         }
 
     }
+
+    .search {
+        .sectionContainer {
+            .btns {
+                width: 70%;
+                border-radius: 3rem;
+                flex-direction: row;
+            }
+            .searchInputs {
+                grid-template-columns: repeat(4, 1fr);
+
+                .singleInput {
+                    .texts {
+                        input {
+                            width: 100%;
+                        }
+                    }
+
+                }
+            }
+
+        }
+    }
+
+    .support {
+        .sectionContainer {
+            .infoDiv {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+                margin-top: 5rem;
+
+                .textDiv {
+                    margin-top: 0;
+                    grid-template-columns: repeat(1, 1fr);
+                }
+            }
+        }
+    }
+
+    .info {
+        .infoContainer {
+            padding: 0 6rem;
+
+            .titleDiv {
+               width: 90%;
+                margin: auto;
+                align-items: center;
+            }
+
+            .cardsDiv {
+                grid-template-columns: repeat(2, 1fr);
+
+                .singleCard {
+                    max-width: 260px;
+                }
+            }
+        }
+    }
 }
+
 
 
 
